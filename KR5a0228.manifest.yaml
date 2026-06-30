@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5a0228/v1
+canonical_location: https://kanripo.org/bkk/KR5a0228/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 真龍虎九仙經
+  identifiers:
+    alt_id:
+    - DZ0227
+  date: '2015-08-28 23:42:41.612949'
+  source:
+    repository: kanripo
+    path: KR5a0228
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0228_000.yaml, hash: 'sha256:a5d6a69f95934a6fefd27ff41a83a5a8df43a0c77ba8f6e383970d0df7d5caeb'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0228_000.markers.yaml, hash: 'sha256:f9a34c718dc4954d197df35867cda9bd91ea601c47194a8ee2b6e348fb2991ca'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0228_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 3983
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:582f4d0719b9f07847a6b772e5871124b9af4f0ca4f2f54e47c581b968e05c63
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
